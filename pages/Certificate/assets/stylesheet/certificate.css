@@ -1,0 +1,80 @@
+#section_header {
+  height: 100vh;
+  background-image: url("../../../../assets/img/success student (1).JPG");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  background-attachment: fixed;
+}
+#section_header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.4;
+}
+#section_header .section_header_content {
+  margin-top: 100px;
+}
+#section_header .section_header_content > h2 {
+  font-size: 6.357rem;
+  font-weight: 500;
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+}
+
+.navigation_Btn > ul {
+  display: flex;
+  justify-content: center;
+}
+.navigation_Btn > ul > li {
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 7px 15px;
+  border-radius: 7px;
+}
+.navigation_Btn > ul > li.active {
+  background-color: rgba(255, 255, 255, 0.666);
+}
+
+.container_certificate {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+.container_certificate > section {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  transform: translateY(100%);
+  overflow-y: scroll;
+  padding-block: 40px;
+  margin-left: 0;
+}
+.container_certificate > section > figure > img {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: 100% 100%;
+     object-fit: 100% 100%;
+}
+.container_certificate > section > figure > h5 {
+  color: var(--gray);
+}
+.container_certificate > section .card_caption > span {
+  display: inline-block;
+  padding: 7px 15px;
+  margin-block: 10px;
+  border-radius: 2px;
+}
+.container_certificate > section.show {
+  transform: translateY(0);
+  transition: 0.5s;
+}/*# sourceMappingURL=certificate.css.map */

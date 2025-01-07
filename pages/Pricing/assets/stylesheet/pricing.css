@@ -1,0 +1,69 @@
+#section_header {
+  height: 100vh;
+  background-image: url("../../../../assets/img/image_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#section_header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.4;
+}
+#section_header .section_header_content {
+  margin-top: 100px;
+}
+#section_header .section_header_content > h2 {
+  font-size: 7.357rem;
+  font-weight: 500;
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+}
+
+#section_our_pricing {
+  margin-top: 0;
+  padding-top: 100px;
+}
+
+#section_question {
+  margin-top: 0;
+  padding-top: 100px;
+  text-align: center;
+}
+#section_question span {
+  color: var(--primary);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+#section_question h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+#section_question li {
+  border: 1px solid var(--gray);
+}
+#section_question .question_header {
+  height: 60px;
+  background-color: var(--primary);
+  cursor: pointer;
+}
+#section_question .question_header > * {
+  font-weight: bold;
+}
+#section_question .question_header i {
+  transition: 0.5s ease;
+}
+#section_question .question-body {
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s;
+}
+#section_question .question-body.show {
+  height: 200px;
+}/*# sourceMappingURL=pricing.css.map */
