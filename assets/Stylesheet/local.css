@@ -1,7 +1,22 @@
 @media screen and (max-width:565px) {
     /* small phone     */
+    .header_title{
+        font-size:20px;
+        color:red;
+    }
     .section_products{
         height:70vh;
+    }
+    .swiper-slide{
+        >img{
+            object-position:90% 100%;
+        }
+       >figcaption{
+        background-color:orange;
+        >h2{
+            font-size:25px !important;
+        }
+       }
     }
 
 
@@ -66,6 +81,9 @@
 
 @media screen and (min-width:567px) {
     /* Large phone  */
+    .header_title{
+        font-size:20px;
+    }
     .section_products{
         height:60vh;
     }
