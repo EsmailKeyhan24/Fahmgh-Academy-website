@@ -1,0 +1,7 @@
+@media screen and (max-width:576px) {
+    .section_header_content{
+        >h2{
+            font-size:60px !important;
+        }
+    } 
+}

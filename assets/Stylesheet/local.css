@@ -7,19 +7,7 @@
     .section_products{
         height:70vh;
     }
-    .swiper-slide{
-        >img{
-            object-position:90% 100%;
-        }
-       >figcaption{
-        h1{
-            font-size:48px !important;
-        }
-        >h2{
-            font-size:25px !important;
-        }
-       }
-    }
+   
 
 
     /* ***** #navigation_item ****  */
@@ -78,6 +66,22 @@
         }
     }
     /* ****** end of  .navigation_Btn *********  */
+
+
+    /* __________Header Bannre _____  */
+    .swiper-slide{
+        >img{
+            object-position:90% 100%;
+        }
+       >figcaption{
+        h1{
+            font-size:48px !important;
+        }
+        >h2{
+            font-size:25px !important;
+        }
+       }
+    }
 }
 
 
