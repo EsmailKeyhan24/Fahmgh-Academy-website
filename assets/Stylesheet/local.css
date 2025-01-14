@@ -12,7 +12,9 @@
             object-position:90% 100%;
         }
        >figcaption{
-        background-color:orange;
+        h1{
+            font-size:48px !important;
+        }
         >h2{
             font-size:25px !important;
         }
