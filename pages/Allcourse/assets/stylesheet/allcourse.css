@@ -1,6 +1,10 @@
+body {
+  overflow-x: hidden;
+}
+
 #section_header {
   height: 100vh;
-  background-image: url("../../../../assets/img/image_1.jpg");
+  background-image: url("../img/background.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
